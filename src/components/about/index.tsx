@@ -1,4 +1,4 @@
-import avatar from "../../assets/default-profile.png";
+import avatar from "../../assets/avatar.png";
 
 export function About() {
   return (

@@ -4,7 +4,7 @@ export function Proposals() {
   return (
     <section
       id="propostas"
-      className="w-screen flex items-center justify-center py-10  pt-28 bg-green-300"
+      className="w-screen flex items-center justify-center py-28 bg-green-300"
     >
       <div className="max-w-[1024px] px-6  text-white">
         <div className="mb-16 ">
