@@ -27,7 +27,7 @@ export function Depositions() {
           <Swiper
             // install Swiper modules
             modules={[Pagination, A11y]}
-            // spaceBetween={50}
+            spaceBetween={20}
             slidesPerView={1}
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
