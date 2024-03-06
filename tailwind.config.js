@@ -25,6 +25,7 @@ export default {
         '5': "url('./src/assets/5.jpg')",
         '6': "url('./src/assets/6.jpg')",
         '7': "url('./src/assets/7.jpg')",
+        'default': "url('./src/assets/default.png')",
       }
     },
   },

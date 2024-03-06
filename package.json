@@ -12,10 +12,10 @@
   "dependencies": {
     "@headlessui/react": "^1.7.18",
     "@phosphor-icons/react": "^2.0.15",
-    "embla-carousel-react": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-photo-gallery": "^8.0.0"
+    "react-photo-gallery": "^8.0.0",
+    "swiper": "^11.0.7"
   },
   "devDependencies": {
     "@types/react": "^18.2.56",
