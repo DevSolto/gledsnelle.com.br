@@ -10,3 +10,21 @@ body{
   font-family: "Inter", sans-serif;
   overflow-x: hidden;
 }
+
+html {
+  scrollbar-width: thin;
+}
+
+html::-webkit-scrollbar {
+  width: 3px;
+  height: 3px; /* A altura só é vista quando a rolagem é horizontal */
+}
+
+html::-webkit-scrollbar-track {
+  background: transparent;
+  padding: 2px;
+}
+
+html::-webkit-scrollbar-thumb {
+  background-color: #0D68AF;
+}
