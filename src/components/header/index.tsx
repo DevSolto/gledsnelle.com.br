@@ -3,7 +3,7 @@ import { Menu } from "@headlessui/react";
 
 export default function Header() {
   return (
-    <header className="w-full flex items-center justify-center bg-blue-300 px-6 py-4 fixed">
+    <header className="w-full flex items-center justify-center bg-blue-300 px-6 py-4 fixed z-50">
       <div className="max-w-[1024px] w-full flex items-center justify-between lg:flex-row-reverse">
         <ContactButton color="#E23C54" />
         <div className="lg:hidden">

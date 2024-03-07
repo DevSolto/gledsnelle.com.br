@@ -13,7 +13,7 @@ export function Banner() {
           </p>
           <ContactButton color="#0D68AF" />
         </div>
-        <img src={avatar} alt="" className="w-full"/>
+        <img src={avatar} alt="" className="w-full rounded-lg"/>
       </div>
     </section>
   );

@@ -1,7 +1,7 @@
 export function PhotoGallery() {
   return (
     <section
-      id="sobre"
+      id="galeria"
       className="w-screen flex items-center justify-center py-28"
     >
       <div className="max-w-[1024px] w-full px-6 lg:flex lg:flex-col lg:gap-20 text-blue-300">
@@ -10,13 +10,13 @@ export function PhotoGallery() {
           <p>Capturas da nossa jornada de mudança</p>
         </div>
         <div className="w-full grid grid-cols-1 lg:grid-rows-3 gap-y-5 gap-x-5 md:grid-cols-2 lg:grid-cols-3">
-          <div className=" bg-default bg-center bg-cover h-80 lg:h-full lg:row-span-2"></div>
-          <div className=" bg-default bg-center bg-cover h-80 lg:h-60 "></div>
-          <div className=" bg-default bg-center bg-cover h-80 lg:h-60 "></div>
-          <div className=" bg-default bg-center bg-cover h-80 lg:h-60 "></div>
-          <div className=" bg-default bg-center bg-cover h-80 lg:h-full lg:row-span-2"></div>
-          <div className=" bg-default bg-center bg-cover h-80 lg:h-60"></div>
-          <div className=" bg-default bg-center bg-cover h-80 lg:h-60"></div>
+          <div className="rounded-lg bg-default bg-center bg-cover h-80 lg:h-full lg:row-span-2"></div>
+          <div className="rounded-lg bg-default bg-center bg-cover h-80 lg:h-60 "></div>
+          <div className="rounded-lg bg-default bg-center bg-cover h-80 lg:h-60 "></div>
+          <div className="rounded-lg bg-default bg-center bg-cover h-80 lg:h-60 "></div>
+          <div className="rounded-lg bg-default bg-center bg-cover h-80 lg:h-full lg:row-span-2"></div>
+          <div className="rounded-lg bg-default bg-center bg-cover h-80 lg:h-60"></div>
+          <div className="rounded-lg bg-default bg-center bg-cover h-80 lg:h-60"></div>
         </div>
       </div>
     </section>
