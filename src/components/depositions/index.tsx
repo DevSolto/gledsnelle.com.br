@@ -8,7 +8,8 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
 
-import avatar from "../../assets/default.png";
+import vinicios from "../../assets/vinicios.jpeg";
+import si from "../../assets/si.jpeg";
 
 export function Depositions() {
   return (
@@ -18,12 +19,10 @@ export function Depositions() {
     >
       <div className="max-w-[1024px] w-full px-6 flex flex-col gap-20 text-white">
         <div className="mb-5 flex flex-col items-center justify-center">
-          <h2 className="text-5xl text-center font-bold">
-            O que estão falando de Gleds
-          </h2>
+          <h2 className="text-5xl text-center font-bold">Na boca do povo</h2>
           <p>Ouvir é a base do cuidado</p>
         </div>
-        <div className=" lg:hidden">
+        <div className="h-min lg:hidden">
           <Swiper
             // install Swiper modules
             modules={[Pagination, A11y]}
@@ -32,207 +31,92 @@ export function Depositions() {
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
+            className="h-min"
           >
             <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
+              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col justify-between gap-5 h-full">
                 <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
+                  "Gleds é demais! Tem um coração de ouro e ajuda todo mundo. É
+                  uma guerreira que faz nossa cidade melhor com sua escola
+                  técnica. Graças a ela, muita gente tá aprendendo e conseguindo
+                  emprego. Ela é um exemplo pra todos nós. Nossa cidade é melhor
+                  por causa dela."
                 </p>
                 <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
+                  <img src={si} alt="" className="w-16 h-16 rounded-full" />
                   <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
+                    <p className="font-bold">Si Ferreira</p>
+                    <p>Candidato a vereador</p>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
+              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col justify-between gap-5 h-full">
                 <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
+                  "Gleds é uma pessoa nascida e criada em Remígio com ótima
+                  conexão com as pessoas, simples, disposta a ajudar e a
+                  aprender continuamente com foco no coletivo."
                 </p>
                 <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
+                  <img
+                    src={vinicios}
+                    alt=""
+                    className="w-16 h-16 rounded-full"
+                  />
                   <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
-                <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
-                </p>
-                <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
-                  <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
-                <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
-                </p>
-                <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
-                  <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
-                <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
-                </p>
-                <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
-                  <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
-                <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
-                </p>
-                <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
-                  <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
+                    <p className="font-bold">Vinícios Carneiro</p>
+                    <p>Advogado e assessor jurídico</p>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
           </Swiper>
         </div>
-        <div className="hidden lg:flex">
+        <div className="h-min hidden lg:flex">
           <Swiper
             // install Swiper modules
             modules={[Pagination, A11y]}
             spaceBetween={50}
-            slidesPerView={3}
+            slidesPerView={2}
             pagination={{ clickable: true }}
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log("slide change")}
+            className="h-60"
           >
             <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
+              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col justify-between gap-5 h-full">
                 <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
+                  "Gleds é demais! Tem um coração de ouro e ajuda todo mundo. É
+                  uma guerreira que faz nossa cidade melhor com sua escola
+                  técnica. Graças a ela, muita gente tá aprendendo e conseguindo
+                  emprego. Ela é um exemplo pra todos nós."
                 </p>
                 <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
+                  <img src={si} alt="" className="w-16 h-16 rounded-full" />
                   <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
+                    <p className="font-bold">Si Ferreira</p>
+                    <p>Candidato a vereador</p>
                   </div>
                 </div>
               </div>
             </SwiperSlide>
             <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
+              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col justify-between gap-5 h-full">
                 <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
+                  "Gleds é uma pessoa nascida e criada em Remígio com ótima
+                  conexão com as pessoas, simples, disposta a ajudar e a
+                  aprender continuamente com foco no coletivo.""
                 </p>
                 <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
+                  <img
+                    src={vinicios}
+                    alt=""
+                    className="w-16 h-16 rounded-full"
+                  />
                   <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
-                <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
-                </p>
-                <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
-                  <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
-                <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
-                </p>
-                <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
-                  <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
-                <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
-                </p>
-                <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
-                  <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
-                  </div>
-                </div>
-              </div>
-            </SwiperSlide>
-            <SwiperSlide>
-              <div className="mb-10 px-5 py-2 bg-white text-zinc-600 rounded-lg flex flex-col gap-5">
-                <p className="text-lg">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum
-                  perferendis vel, sapiente ex voluptates nulla possimus
-                  explicabo hi
-                </p>
-                <div className="flex gap-5 text-purple-300">
-                  <img src={avatar} alt="" className="w-16 rounded-full"/>
-                  <div>
-                    <p className="font-bold">Nome da pessoa</p>
-                    <p>Quem é essa pessoa</p>
+                    <p className="font-bold">Vinícios Carneiro</p>
+                    <p>Advogado e assessor jurídico</p>
                   </div>
                 </div>
               </div>

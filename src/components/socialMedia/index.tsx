@@ -4,7 +4,7 @@ export function SocialMedia() {
   return (
     <section
       id="contato"
-      className=" w-screen flex justify-center items-center py-10 pt-28"
+      className=" w-screen flex justify-center items-center py-28"
     >
       <div className="text-green-300 max-w-[1024px] px-6 w-screen flex flex-col items-center justify-center gap-16">
         <div className=" mb-5 flex flex-col items-center justify-center">
@@ -29,7 +29,7 @@ export function SocialMedia() {
               height={"100px"}
               className=" mb-5"
             />
-              <p className="text-xl font-bold">gledsnelle</p>
+              <p className="text-xl font-bold">@gledsnelle</p>
               <p>Siga as Histórias e Novidades de Gleds</p>
           </a>
           <a href="https://www.facebook.com/mariagledsnelle/" className="flex flex-col items-center justify-center">
@@ -38,7 +38,7 @@ export function SocialMedia() {
               height={"100px"}
               className=" mb-5"
             />
-              <p className="text-xl font-bold">Maria Gledsnelle</p>
+              <p className="text-xl font-bold">/mariagledsnelles</p>
               <p>Participe da Comunidade de Gleds</p>
           </a>
         </div>

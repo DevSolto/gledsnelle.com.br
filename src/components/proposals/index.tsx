@@ -8,7 +8,7 @@ export function Proposals() {
     >
       <div className="max-w-[1024px] px-6  text-white">
         <div className="mb-16 ">
-          <h2 className="text-5xl font-bold mb-5">De mãos dadas com Gleds</h2>
+          <h2 className="text-5xl font-bold mb-5">De mãos dadas comigo</h2>
           <p className="max-w-md">
             A nossa Remígio merece crescer com dignidade, justiça e
             oportunidades para todos. Aqui estão nossas principais propostas:
