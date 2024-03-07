@@ -1,12 +1,12 @@
-import { FacebookLogo, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
+import {FacebookLogo, InstagramLogo, WhatsappLogo } from "@phosphor-icons/react";
 
 export function SocialMedia() {
   return (
     <section
       id="contato"
-      className=" w-screen flex justify-center items-center py-28"
+      className=" w-screen flex justify-center items-center py-28 bg-green-300"
     >
-      <div className="text-green-300 max-w-[1024px] px-6 w-screen flex flex-col items-center justify-center gap-16">
+      <div className="text-white  max-w-[1024px] px-6 w-screen flex flex-col items-center justify-center gap-16">
         <div className=" mb-5 flex flex-col items-center justify-center">
           <h2 className=" text-5xl text-center font-bold">
             Redes sociais de Gleds
