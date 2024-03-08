@@ -9,7 +9,7 @@ export function Banner() {
           <p className="text-base mb-7">
             Vamos juntos fazer de Remígio um lugar de progresso e felicidade
             para nossas famílias. A jornada é desafiadora, mas com fé, união e
-            determinação, chegaremos lá. Remígio merece mais!
+            determinação, chegaremos lá. <span className="font-bold"> Remígio merece mais!</span>
           </p>
           <ContactButton color="#0D68AF" />
         </div>
