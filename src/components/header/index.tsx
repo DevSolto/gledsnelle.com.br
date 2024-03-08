@@ -64,6 +64,16 @@ export default function Header() {
               {({ active }) => (
                 <a
                   className={`${active && "bg-blue-500"}`}
+                  href="#dicionario"
+                >
+                  Dicionário
+                </a>
+              )}
+            </Menu.Item>
+            <Menu.Item>
+              {({ active }) => (
+                <a
+                  className={`${active && "bg-blue-500"}`}
                   href="#contato"
                 >
                   Contato
@@ -89,6 +99,9 @@ export default function Header() {
           </a>
           <a href="#depoimentos">
             Depoimentos
+          </a>
+          <a href="#dicionario">
+            Dicionário
           </a>
           <a href="#contato">
             Contato

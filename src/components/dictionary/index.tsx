@@ -1,12 +1,12 @@
 export function Dictionary() {
   return (
     <section
-      id="contato"
+      id="dicionario"
       className=" w-screen flex justify-center items-center py-28 "
     >
       <div className="text-zinc-800  max-w-[1024px] px-6 w-screen flex flex-col items-start justify-center gap-16">
         <div className="mb-5 flex flex-col items-start justify-center">
-          <h2 className="text-5xl text-center font-bold">
+          <h2 className="text-5xl  font-bold">
             <span className="text-blue-300">D</span>
             <span className="text-purple-300">i</span>
             <span className="text-green-300">c</span>
@@ -30,7 +30,7 @@ export function Dictionary() {
           <p>Entenda como eu falo</p>
         </div>
 
-        <div className="w-full grid grid-cols-2 gap-5">
+        <div className="w-full grid lg:grid-cols-2 gap-5">
           <div className="flex flex-col  gap-5">
             <div>
               <p className="text-3xl font-bold text-blue-300">É grave:</p>

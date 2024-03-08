@@ -19,8 +19,14 @@ export function Depositions() {
       id="depoimentos"
       className="w-screen flex items-center justify-center py-28 bg-purple-300"
     >
-      <div className="max-w-[1024px] w-full px-6 flex flex-col gap-20 text-white">
-        <div className="grid grid-cols-3 gap-16">
+
+      <div className="max-w-[1024px] w-full px-6 flex flex-col gap-5 lg:gap-20 text-white">
+      <div className="mb-5 flex flex-col items-center justify-center lg:hidden">
+          <h2 className="text-5xl text-center font-bold">Na boca do povo</h2>
+          <p>Ouvir é a base do cuidado</p>
+        </div>
+        
+        <div className="w-full flex flex-col gap-5 justify-center items-center lg:grid lg:grid-cols-3 lg:gap-16">
           <img className="w-80 rounded-xl" src={coment2} alt="" />
           <img className="w-80 rounded-xl" src={coment1 } alt="" />
           <img className="w-80 rounded-xl" src={coment3} alt="" />
@@ -29,12 +35,12 @@ export function Depositions() {
           <img className="w-80 rounded-xl" src={coment6} alt="" />
         </div>
 
-        <div className="mb-5 flex flex-col items-center justify-center">
+        <div className="mb-5 lg:flex flex-col items-center justify-center hidden">
           <h2 className="text-5xl text-center font-bold">Na boca do povo</h2>
           <p>Ouvir é a base do cuidado</p>
         </div>
 
-        <div className="grid grid-cols-3 gap-16">
+        <div className="w-full flex flex-col gap-5 justify-center items-center lg:grid lg:grid-cols-3 lg:gap-16">
           <img className="w-80 rounded-xl" src={coment7} alt="" />
           <img className="w-80 rounded-xl" src={coment9} alt="" />
           <img className="w-80 rounded-xl" src={coment8} alt="" />
