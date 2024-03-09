@@ -1,7 +1,7 @@
-import sobre1 from "../../assets/sobre1.jpg";
-import sobre2 from "../../assets/sobre2.jpg";
-import sobre3 from "../../assets/sobre3.jpg";
-import sobre4 from "../../assets/sobre4.jpg";
+import sobre1 from "../../assets/sobre1.webp";
+import sobre2 from "../../assets/sobre2.webp";
+import sobre3 from "../../assets/sobre3.webp";
+import sobre4 from "../../assets/sobre4.webp";
 
 export function About() {
   return (
@@ -28,8 +28,7 @@ export function About() {
             posso fazer muito mais por Remígio. Não sou apenas uma voz, mas um
             ouvido atento às necessidades do nosso povo. Estou aqui para somar,
             para lutar e para transformar a nossa realidade. Quero guiar a
-            mudança que tanto sonhamos, e conto com o apoio e a força de cada um
-            de vocês nesta caminhada. Juntos, somos mais fortes e levaremos
+            mudança que tanto sonhamos. Juntos, somos mais fortes e levaremos
             Remígio ao futuro que merecemos. Estou aqui para isso, por vocês,
             para vocês e com vocês. Vamos nessa?
           </p>

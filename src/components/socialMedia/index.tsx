@@ -9,7 +9,7 @@ export function SocialMedia() {
       <div className="text-white  max-w-[1024px] px-6 w-screen flex flex-col items-center justify-center gap-16">
         <div className=" mb-5 flex flex-col items-center justify-center">
           <h2 className=" text-5xl text-center font-bold">
-            Redes sociais de Gleds
+            Minhas redes sociais
           </h2>
           <p>Fique por dentro de tudo</p>
         </div>
@@ -17,29 +17,32 @@ export function SocialMedia() {
           <a className="flex flex-col items-center justify-center">
             <WhatsappLogo
               width={"100px"}
+              weight="fill"
               height={"100px"}
               className=" mb-5"
             />
               <p className="text-xl font-bold">(99) 9 999-9999</p>
-              <p>Fale diretamente com Gleds</p>
+              <p>Fale diretamente Comigo</p>
           </a>
           <a href="https://www.instagram.com/gledsnelle/" className="flex flex-col items-center justify-center">
             <InstagramLogo
               width={"100px"}
+              weight="fill"
               height={"100px"}
               className=" mb-5"
             />
               <p className="text-xl font-bold">@gledsnelle</p>
-              <p>Siga as Histórias e Novidades de Gleds</p>
+              <p>Acompanhe as Histórias e Novidades</p>
           </a>
           <a href="https://www.facebook.com/mariagledsnelle/" className="flex flex-col items-center justify-center">
             <FacebookLogo
               width={"100px"}
+              weight="fill"
               height={"100px"}
               className=" mb-5"
             />
               <p className="text-xl font-bold">/mariagledsnelles</p>
-              <p>Participe da Comunidade de Gleds</p>
+              <p>Participe da minha Comunidade</p>
           </a>
         </div>
       </div>

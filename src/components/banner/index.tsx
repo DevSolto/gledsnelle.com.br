@@ -1,5 +1,5 @@
 import { ContactButton } from "../contactButton/Index";
-import avatar from "../../assets/avatar.png";
+import avatar from "../../assets/avatar.webp";
 export function Banner() {
   return (
     <section id="inicio" className="bg-pink-300 text-white w-screen flex justify-center items-center py-10 pt-28">
