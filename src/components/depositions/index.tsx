@@ -40,7 +40,7 @@ export function Depositions() {
           <p>Ouvir é a base do cuidado</p>
         </div>
 
-        <div className="w-full flex flex-col gap-5 justify-center items-center lg:grid lg:grid-cols-3 lg:gap-16">
+        <div className="w-full  gap-5 justify-center items-center lg:grid lg:grid-cols-3 lg:gap-16 hidden">
           <img className="w-80 rounded-xl" src={coment7} alt="" />
           <img className="w-80 rounded-xl" src={coment9} alt="" />
           <img className="w-80 rounded-xl" src={coment8} alt="" />

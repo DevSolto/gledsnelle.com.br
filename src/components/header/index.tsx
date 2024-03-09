@@ -76,7 +76,7 @@ export default function Header() {
                   className={`${active && "bg-blue-500"}`}
                   href="#contato"
                 >
-                  Contato
+                  Redes Sociais
                 </a>
               )}
             </Menu.Item>
@@ -104,7 +104,7 @@ export default function Header() {
             Dicionário
           </a>
           <a href="#contato">
-            Contato
+            Redes Sociais
           </a>
         </nav>
 

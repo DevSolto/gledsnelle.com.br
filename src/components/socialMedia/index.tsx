@@ -14,7 +14,7 @@ export function SocialMedia() {
           <p>Fique por dentro de tudo</p>
         </div>
         <div className="flex flex-col lg:flex-row gap-5">
-          <a className="flex flex-col items-center justify-center">
+          <a href="https://api.whatsapp.com/send?phone=5583999647875&text=Oi,%20vim%20pelo%20site!" target="_blank" className="flex flex-col items-center justify-center">
             <WhatsappLogo
               width={"100px"}
               weight="fill"
@@ -24,7 +24,7 @@ export function SocialMedia() {
               <p className="text-xl font-bold">(99) 9 999-9999</p>
               <p>Fale diretamente Comigo</p>
           </a>
-          <a href="https://www.instagram.com/gledsnelle/" className="flex flex-col items-center justify-center">
+          <a href="https://www.instagram.com/gledsnelle/" target="_blank" className="flex flex-col items-center justify-center">
             <InstagramLogo
               width={"100px"}
               weight="fill"
@@ -34,7 +34,7 @@ export function SocialMedia() {
               <p className="text-xl font-bold">@gledsnelle</p>
               <p>Acompanhe as Histórias e Novidades</p>
           </a>
-          <a href="https://www.facebook.com/mariagledsnelle/" className="flex flex-col items-center justify-center">
+          <a href="https://www.facebook.com/mariagledsnelle/" target="_blank" className="flex flex-col items-center justify-center">
             <FacebookLogo
               width={"100px"}
               weight="fill"
