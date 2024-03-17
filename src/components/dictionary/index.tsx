@@ -34,11 +34,11 @@ export function Dictionary() {
           <div className="flex flex-col  gap-5">
             <div>
               <p className="text-3xl font-bold text-blue-300">É grave:</p>
-              <p>Quando o assunto é sério, pesadoou de grande impacto</p>
+              <p>Quando o assunto é sério, pesado ou de grande impacto</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-green-300">Top top top:</p>
-              <p>Quando é algoótimo, excelente, melhor que o esperado</p>
+              <p>Quando é algo ótimo, excelente, melhor que o esperado</p>
             </div>
             <div>
               <p className="text-3xl font-bold text-pink-300">Você é show:</p>

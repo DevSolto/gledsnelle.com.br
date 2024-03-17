@@ -11,7 +11,7 @@ export function Proposals() {
           <h2 className="text-5xl font-bold mb-5">De mãos dadas comigo</h2>
           <p className="max-w-md">
             A nossa Remígio merece crescer com dignidade, justiça e
-            oportunidades para todos. Aqui estão nossas principais propostas:
+            oportunidades para todos. Aqui estão nossos principais compromissos:
           </p>
         </div>
 

@@ -21,7 +21,7 @@ export function SocialMedia() {
               height={"100px"}
               className=" mb-5"
             />
-              <p className="text-xl font-bold">(99) 9 999-9999</p>
+              <p className="text-xl font-bold"> (83) 9 9964-7875</p>
               <p>Fale diretamente comigo</p>
           </a>
           <a href="https://www.instagram.com/gledsnelle/" target="_blank" className="flex flex-col items-center justify-center">
