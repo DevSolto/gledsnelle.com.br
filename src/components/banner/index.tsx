@@ -1,5 +1,5 @@
 import { ContactButton } from "../contactButton/Index";
-import avatar from "../../assets/avatar.png";
+import avatar from "../../assets/avatar.webp";
 export function Banner() {
   return (
     <section id="inicio" className="bg-cover bg-bottom text-white w-screen flex flex-col justify-end items-center pt-32 lg:pt-16">

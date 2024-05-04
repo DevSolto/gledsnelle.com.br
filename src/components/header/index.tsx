@@ -1,4 +1,4 @@
-import img from "../../assets/logo.png"
+import img from "../../assets/logo.svg"
 import { Menu } from "@headlessui/react";
 
 export default function Header() {
