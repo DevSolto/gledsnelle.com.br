@@ -30,7 +30,7 @@ html::-webkit-scrollbar-thumb {
 }
 
 #inicio{
-  background-image: url(/src/assets/bg.webp);
+  background-image: url(/src/assets/bg.png);
 }
 #padrao{
   background-image: url(/src/assets/padrão.svg);

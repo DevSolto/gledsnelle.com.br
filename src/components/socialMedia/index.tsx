@@ -22,7 +22,7 @@ export function SocialMedia() {
               className=" mb-5"
             />
               <p className="text-xl font-bold"> (83) 9 9964-7875</p>
-              <p>Fale diretamente comigo</p>
+              <p className="text-center">Fale diretamente comigo</p>
           </a>
           <a href="https://www.instagram.com/gledsnelle/" target="_blank" className="flex flex-col items-center justify-center">
             <InstagramLogo
@@ -32,7 +32,7 @@ export function SocialMedia() {
               className=" mb-5"
             />
               <p className="text-xl font-bold">@gledsnelle</p>
-              <p>Acompanhe as histórias e novidades</p>
+              <p className="text-center">Acompanhe as histórias e novidades</p>
           </a>
           <a href="https://www.facebook.com/mariagledsnelle/" target="_blank" className="flex flex-col items-center justify-center">
             <FacebookLogo
@@ -42,7 +42,7 @@ export function SocialMedia() {
               className=" mb-5"
             />
               <p className="text-xl font-bold">/mariagledsnelles</p>
-              <p>Participe da minha comunidade</p>
+              <p className="text-center">Participe da minha comunidade</p>
           </a>
         </div>
       </div>
