@@ -26,8 +26,8 @@ export default function Header() {
           <a href="#dicionario">
             Dicionário
           </a>
-          <a href="#contato">
-            Redes Sociais
+          <a href="/remigio-pode-mais">
+            Remígio pode mais
           </a>
         </nav>
         <img src={img} alt="Logo de Gleds" className="w-32 z-50" />
@@ -99,9 +99,9 @@ export default function Header() {
                 {({ active }) => (
                   <a
                     className={`${active && "bg-blue-500"}`}
-                    href="#contato"
+                    href="/remigio-pode-mais"
                   >
-                    Redes Sociais
+                    Remígio pode mais
                   </a>
                 )}
               </Menu.Item>
