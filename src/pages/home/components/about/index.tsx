@@ -1,7 +1,7 @@
-import sobre1 from "../../assets/sobre1.webp";
-import sobre2 from "../../assets/sobre2.webp";
-import sobre3 from "../../assets/sobre3.webp";
-import sobre4 from "../../assets/sobre4.webp";
+import sobre1 from "../../../../assets/sobre1.webp";
+import sobre2 from "../../../../assets/sobre2.webp";
+import sobre3 from "../../../../assets/sobre3.webp";
+import sobre4 from "../../../../assets/sobre4.webp";
 
 export function About() {
   return (

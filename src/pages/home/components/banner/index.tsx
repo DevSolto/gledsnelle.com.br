@@ -1,5 +1,5 @@
 import { ContactButton } from "../contactButton/Index";
-import avatar from "../../assets/avatar.webp";
+import avatar from "../../../../assets/avatar.webp";
 export function Banner() {
   return (
     <>

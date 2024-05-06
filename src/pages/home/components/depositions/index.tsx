@@ -1,17 +1,17 @@
 
 
-import coment1 from "../../assets/IMG_2819.jpg"
-import coment2 from "../../assets/IMG_2820.jpg"
-import coment3 from "../../assets/IMG_2821.jpg"
-import coment4 from "../../assets/IMG_2822.jpg"
-import coment5 from "../../assets/IMG_2823.jpg"
-import coment6 from "../../assets/IMG_2824.jpg"
-import coment7 from "../../assets/IMG_2825.jpg"
-import coment8 from "../../assets/IMG_2826.jpg"
-import coment9 from "../../assets/IMG_2827.jpg"
-import coment10 from "../../assets/IMG_2828.jpg"
-import coment11 from "../../assets/IMG_2829.jpg"
-import coment12 from "../../assets/IMG_2830.jpg"
+import coment1 from "../../../../assets/IMG_2819.jpg"
+import coment2 from "../../../../assets/IMG_2820.jpg"
+import coment3 from "../../../../assets/IMG_2821.jpg"
+import coment4 from "../../../../assets/IMG_2822.jpg"
+import coment5 from "../../../../assets/IMG_2823.jpg"
+import coment6 from "../../../../assets/IMG_2824.jpg"
+import coment7 from "../../../../assets/IMG_2825.jpg"
+import coment8 from "../../../../assets/IMG_2826.jpg"
+import coment9 from "../../../../assets/IMG_2827.jpg"
+import coment10 from "../../../../assets/IMG_2828.jpg"
+import coment11 from "../../../../assets/IMG_2829.jpg"
+import coment12 from "../../../../assets/IMG_2830.jpg"
 
 export function Depositions() {
   return (

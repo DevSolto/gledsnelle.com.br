@@ -1,26 +1,15 @@
-import { About } from "./components/about";
-import { Banner } from "./components/banner";
-import { Depositions } from "./components/depositions";
-import { Dictionary } from "./components/dictionary";
-import { Footer } from "./components/footer";
-import { PhotoGallery } from "./components/gallery";
-import Header from "./components/header";
-import { Proposals } from "./components/proposals";
-import { SocialMedia } from "./components/socialMedia";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import Home from './pages/home';
+import RemigioPodeMais from './pages/remigioPodeMais';
 
 function App() {
   return (
-    <>
-      <Header />
-      <Banner />
-      <About />
-      <Proposals/>
-      <PhotoGallery/>
-      <Depositions/>
-      <Dictionary/>
-      <SocialMedia/>
-      <Footer/>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/remigio-pode-mais" element={<RemigioPodeMais />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
