@@ -3,7 +3,7 @@ import avatar from "../../../../assets/avatar.webp";
 export function Banner() {
   return (
     <>
-    <section id="inicio" className="bg-cover bg-bottom text-white w-screen flex flex-col justify-end items-center pt-32 lg:pt-16">
+    <section id="inicio" className="bg-remigio bg-cover bg-bottom text-white w-screen flex flex-col justify-end items-center pt-32 lg:pt-16">
       <div className="max-w-[1024px] px-6 w-screen flex flex-col items-center justify-end gap-0 lg:gap-16 lg:flex-row">
         <div className="flex-1 lg:w-[50%]">
           <h1 className="text-3xl font-bold mb-7 lg:text-5xl">Vamos à luta com a força da nossa terra</h1>

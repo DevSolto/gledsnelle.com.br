@@ -29,10 +29,9 @@ html::-webkit-scrollbar-thumb {
   background-color: #0D68AF;
 }
 
-#inicio{
+.bg-remigio{
   background-image: url(/src/assets/bg.png);
 }
 #padrao{
   background-image: url(/src/assets/padrão.svg);
 }
-
