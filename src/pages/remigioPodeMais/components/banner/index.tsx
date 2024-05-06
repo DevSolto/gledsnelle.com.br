@@ -7,7 +7,6 @@ export function Banner() {
         <img src={logoRemigioPodeMais} alt="Logo Remígio pode mais" className="lg:translate-x-60 lg:z-10"/>
         <img src={avatar} alt="" className=" rounded-lg flex-1 lg:w-[50%] -mt-24 lg:-mt-0 lg:translate-x-0 translate-x-8 lg:z-0"/>
       </div>
-        
     </section>
   )
 }
