@@ -35,3 +35,7 @@ html::-webkit-scrollbar-thumb {
 #padrao{
   background-image: url(/src/assets/padrão.svg);
 }
+
+.bg-remigio-da-gente {
+  background-image: url(/src/assets/bg_site.png);
+}

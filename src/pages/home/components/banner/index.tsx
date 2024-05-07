@@ -14,7 +14,8 @@ export function Banner() {
           </p>
           <ContactButton color="#0D68AF" />
         </div>
-        <img src={avatar} alt="" className=" rounded-lg flex-1 lg:w-[50%]"/>
+        <div></div>
+        <img src={avatar} alt="" className=" rounded-lg flex-1 lg:w-[50%] object-scale-down "/>
       </div>
         
     </section>
