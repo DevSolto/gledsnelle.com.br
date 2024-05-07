@@ -11,7 +11,7 @@ export function Banner() {
             para nossas famílias. A jornada é desafiadora, mas com fé, união e
             determinação, chegaremos lá. <span className="font-bold"> Remígio merece mais!</span>
           </p>
-          <ContactButton color="#0D68AF" />
+          <ContactButton />
         </div>
         <div className="bg-avatar d-flex bg-cover bg-center sm w-full max-w-[550px] lg:w-1/2 h-[600px] lg:h-[800px] ">
           

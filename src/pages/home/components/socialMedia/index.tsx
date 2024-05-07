@@ -14,14 +14,14 @@ export function SocialMedia() {
           <p>Fique por dentro de tudo</p>
         </div>
         <div className="flex flex-col lg:flex-row gap-5">
-          <a href="https://api.whatsapp.com/send?phone=5583999647875&text=Oi,%20vim%20pelo%20site!" target="_blank" className="flex flex-col items-center justify-center">
+          <a href="https://api.whatsapp.com/send?phone=5583996196973&text=Oi,%20vim%20pelo%20site!" target="_blank" className="flex flex-col items-center justify-center">
             <WhatsappLogo
               width={"100px"}
               weight="fill"
               height={"100px"}
               className=" mb-5"
             />
-              <p className="text-xl font-bold"> (83) 9 9964-7875</p>
+              <p className="text-xl font-bold"> (83) 9 9619-6973</p>
               <p className="text-center">Fale diretamente comigo</p>
           </a>
           <a href="https://www.instagram.com/gledsnelle/" target="_blank" className="flex flex-col items-center justify-center">

@@ -5,7 +5,7 @@ export default {
     extend: {
       colors: {
         blue: {
-          300: "#0D68AF",
+          300: "#8C03C5",
         },
         pink: {
           300: "#E23C54",

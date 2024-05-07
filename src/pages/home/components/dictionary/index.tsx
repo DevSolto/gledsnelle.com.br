@@ -7,25 +7,25 @@ export function Dictionary() {
       <div className="text-zinc-800  max-w-[1024px] px-6 w-screen flex flex-col items-start justify-center gap-16">
         <div className="mb-5 flex flex-col items-start justify-center">
           <h2 className="text-5xl  font-bold">
-            <span className="text-blue-300">D</span>
+            <span className="text-green-300">D</span>
             <span className="text-purple-300">i</span>
-            <span className="text-green-300">c</span>
-            <span className="text-pink-300">i</span>
-            <span className="text-blue-300">o</span>
-            <span className="text-purple-300">n</span>
-            <span className="text-green-300">á</span>
-            <span className="text-pink-300">r</span>
-            <span className="text-blue-300">i</span>
+            <span className="text-pink-300">c</span>
+            <span className="text-green-300">i</span>
             <span className="text-purple-300">o</span>
+            <span className="text-pink-300">n</span>
+            <span className="text-green-300">á</span>
+            <span className="text-purple-300">r</span>
+            <span className="text-pink-300">i</span>
+            <span className="text-green-300">o</span>
             <span> </span>
-            <span className="text-pink-300">d</span>
-            <span className="text-blue-300">e</span>
+            <span className="text-purple-300">d</span>
+            <span className="text-pink-300">e</span>
             <span> </span>
             <span className="text-green-300">G</span>
-            <span className="text-pink-300">l</span>
-            <span className="text-blue-300">e</span>
-            <span className="text-purple-300">d</span>
-            <span className="text-green-300">s</span>
+            <span className="text-purple-300">l</span>
+            <span className="text-pink-300">e</span>
+            <span className="text-green-300">d</span>
+            <span className="text-purple-300">s</span>
           </h2>
           <p>Entenda como eu falo</p>
         </div>

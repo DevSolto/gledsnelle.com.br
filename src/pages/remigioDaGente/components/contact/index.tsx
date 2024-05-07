@@ -16,7 +16,7 @@ export function Contact() {
               Junte-se a nós nessa jornada rumo a uma cidade mais justa, próspera e sustentável. Sua participação é essencial para construirmos juntos o futuro que desejamos!
 
             </p>
-            <a href="https://api.whatsapp.com/send?phone=5583999647875&text=Oi,%20vim%20pelo%20site!" target="_blank" className="text-lg rounded-2xl text-pink-300 py-2 px-5 bg-white font-bold shadow-md">
+            <a href="https://api.whatsapp.com/send?phone=5583996196973&text=Oi,%20vim%20pelo%20site!" target="_blank" className="text-lg rounded-2xl text-pink-300 py-2 px-5 bg-white font-bold shadow-md">
               Fale com Gleds
             </a>
           </div>
