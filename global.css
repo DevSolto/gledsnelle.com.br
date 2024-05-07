@@ -39,3 +39,7 @@ html::-webkit-scrollbar-thumb {
 .bg-remigio-da-gente {
   background-image: url(/src/assets/bg_site.png);
 }
+
+.bg-avatar{
+  background-image: url(/src/assets/avatar.webp);
+}

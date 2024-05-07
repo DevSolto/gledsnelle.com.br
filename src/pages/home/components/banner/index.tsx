@@ -1,11 +1,10 @@
 import { ContactButton } from "../contactButton/Index";
-import avatar from "../../../../assets/avatar.webp";
 export function Banner() {
   return (
     <>
     <section id="inicio" className="bg-remigio bg-cover bg-bottom text-white w-screen flex flex-col justify-end items-center pt-32 lg:pt-16">
-      <div className="max-w-[1024px] h-min px-6 w-screen flex flex-col items-center justify-end gap-0 lg:gap-16 lg:flex-row object-scale-down">
-        <div className="flex-1 lg:w-[50%]">
+      <div className="max-w-[1024px] h-min  w-screen flex flex-col items-center justify-end gap-0  lg:flex-row object-scale-down">
+        <div className="flex-1 lg:w-[50%] px-6">
           <h1 className="text-3xl font-bold mb-7 lg:text-5xl">Vamos à luta com a força da nossa terra</h1>
           <p className="text-base mb-7">
             Vamos juntos fazer de Remígio um lugar de progresso e felicidade
@@ -14,7 +13,9 @@ export function Banner() {
           </p>
           <ContactButton color="#0D68AF" />
         </div>
-        <img src={avatar} alt="" className="h-auto  rounded-lg flex-1 lg:w-[50%] object-scale-down "/>
+        <div className="bg-avatar d-flex bg-cover bg-center sm w-full max-w-[550px] lg:w-1/2 h-[600px] lg:h-[800px] ">
+          
+        </div>
       </div>
         
     </section>
