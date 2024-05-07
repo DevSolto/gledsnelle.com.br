@@ -18,7 +18,7 @@ export function Banner() {
       </div>
         
     </section>
-      <div id="padrao" className="lg:bg-contain bg-cover h-20 lg:h-32 w-full d-flex ">
+      <div id="padrao" className="lg:bg-contain bg-cover h-20 lg:h-32 w-full d-flex m-0">
       </div>
     </>
   );
