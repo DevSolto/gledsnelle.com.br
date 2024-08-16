@@ -10,7 +10,7 @@ export function About() {
   return (
     <section
       id="sobre"
-      className="w-screen flex items-center justify-center mt-5 py-10 bg-red-300 z-50"
+      className="w-screen flex items-center justify-center py-10 bg-red-300 z-50"
     >
       <div className="max-w-[1024px] px-6 lg:flex lg:justify-center lg:items-center lg:gap-20">
         <div className="flex flex-col gap-5 lg:w-1/2 flex-1">

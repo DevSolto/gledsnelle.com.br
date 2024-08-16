@@ -7,12 +7,14 @@ import { PhotoGallery } from "./components/gallery";
 import Header from "./components/header";
 // import { Proposals } from "./components/proposals";
 import { SocialMedia } from "./components/socialMedia";
+import { Jingles } from "./components/jingle";
 
 function Home() {
   return (
     <>
         <Header />
         <Banner />
+        <Jingles />
         <About />
         {/* <Proposals /> */}
         <PhotoGallery />
