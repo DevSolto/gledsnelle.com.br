@@ -4,7 +4,7 @@ export function SocialMedia() {
   return (
     <section
       id="contato"
-      className=" w-screen flex justify-center items-center py-28 bg-green-300"
+      className=" w-screen flex justify-center items-center py-28 bg-red-300"
     >
       <div className="text-white  max-w-[1024px] px-6 w-screen flex flex-col items-center justify-center gap-16">
         <div className=" mb-5 flex flex-col items-center justify-center">

@@ -1,20 +1,23 @@
+import { useState } from "react";
 import sobre1 from "../../../../assets/sobre1.webp";
 import sobre2 from "../../../../assets/sobre2.webp";
 import sobre3 from "../../../../assets/sobre3.webp";
 import sobre4 from "../../../../assets/sobre4.webp";
 
 export function About() {
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
     <section
       id="sobre"
-      className="w-screen flex items-center justify-center py-10  pt-28"
+      className="w-screen flex items-center justify-center mt-5 py-10 bg-red-300 z-50"
     >
-      <div className="max-w-[1024px] px-6 lg:flex lg:justify-center lg:items-center lg:gap-20 ">
-        <div className="flex flex-col gap-9 lg:w-1/2 flex-1">
-          <h2 className="text-5xl font-bold lg:text-5xl text-purple-300">
+      <div className="max-w-[1024px] px-6 lg:flex lg:justify-center lg:items-center lg:gap-20">
+        <div className="flex flex-col gap-5 lg:w-1/2 flex-1">
+          <h2 className="text-5xl font-extrabold lg:text-5xl text-white">
             Quem é Gleds?
           </h2>
-          <p className="text-zinc-800">
+          <p className={`text-slate-50 lg:line-clamp-none ${isOpen ? '' : 'line-clamp-6'}`}>
             Olá, meus queridos! Aqui é Gleds, mas muitos de vocês me conhecem
             como 'Mainha'. Sou filha de Geraldina e Belino, apaixonada por nossa terra e
             nossa gente. Sou uma mulher guerreira, mãe, amiga e, acima de tudo,
@@ -32,8 +35,16 @@ export function About() {
             Remígio ao futuro que merecemos. Estou aqui para isso, por vocês,
             para vocês e com vocês. Vamos nessa?
           </p>
+          <div>
+            <button
+              onClick={() => setIsOpen(!isOpen)}
+              className="lg:hidden cursor-pointer text-sm rounded-2xl text-red-300 py-2 px-5 bg-white font-bold shadow-md"
+            >
+              {isOpen ? 'Ver menos...' : 'Ver mais...'}
+            </button>
+          </div>
         </div>
-        <div className="flex gap-5 flex-1">
+        <div className="flex gap-5 flex-1 mt-10">
           <div className="flex flex-col gap-5 mb-24">
             <div className="rounded-xl overflow-hidden">
               <img src={sobre1} alt="" className="w-full h-full" />

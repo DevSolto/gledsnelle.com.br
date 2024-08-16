@@ -29,8 +29,8 @@ html::-webkit-scrollbar-thumb {
   background-color: #0D68AF;
 }
 
-.bg-remigio{
-  background-image: url(/src/assets/bg.png);
+.bg-main{
+  background-image: url(/src/assets/bg_white.webp);
 }
 #padrao{
   background-image: url(/src/assets/padrão.svg);
@@ -42,4 +42,28 @@ html::-webkit-scrollbar-thumb {
 
 .bg-avatar{
   background-image: url(/src/assets/avatar.webp);
+}
+.bg-avatar-2{
+  background-image: url(/src/assets/avatar2.webp);
+}
+.bg-1{
+  background-image: url(/src/assets/1.webp);
+}
+.bg-2{
+  background-image: url(/src/assets/2.webp);
+}
+.bg-3{
+  background-image: url(/src/assets/3.webp);
+}
+.bg-4{
+  background-image: url(/src/assets/4.webp);
+}
+.bg-5{
+  background-image: url(/src/assets/5.webp);
+}
+.bg-6{
+  background-image: url(/src/assets/6.webp);
+}
+.bg-7{
+  background-image: url(/src/assets/7.webp);
 }

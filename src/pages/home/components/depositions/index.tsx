@@ -17,7 +17,7 @@ export function Depositions() {
   return (
     <section
       id="depoimentos"
-      className="w-screen flex items-center justify-center py-28 bg-purple-300"
+      className="w-screen flex items-center justify-center py-28 bg-red-300"
     >
 
       <div className="max-w-[1024px] w-full px-6 flex flex-col gap-5 lg:gap-20 text-white">

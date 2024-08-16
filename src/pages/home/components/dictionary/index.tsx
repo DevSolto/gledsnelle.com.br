@@ -2,10 +2,10 @@ export function Dictionary() {
   return (
     <section
       id="dicionario"
-      className=" w-screen flex justify-center items-center py-28 "
+      className=" w-screen flex justify-center items-center py-28 bg-main"
     >
       <div className="text-zinc-800  max-w-[1024px] px-6 w-screen flex flex-col items-start justify-center gap-16">
-        <div className="mb-5 flex flex-col items-start justify-center">
+        <div className=" flex flex-col items-start justify-center">
           <h2 className="text-5xl  font-bold">
             <span className="text-green-300">D</span>
             <span className="text-purple-300">i</span>

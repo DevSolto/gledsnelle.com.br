@@ -1,45 +1,40 @@
-import img from "../../../../assets/logo.svg"
+import img from "../../../../assets/LOGO-GLEDS-BRANCA.webp"
 import { Menu } from "@headlessui/react";
 
 export default function Header() {
   return (
-    <header className="w-full flex items-center justify-center bg-blue-300 px-6 py-4 fixed z-50">
+    <header className="w-full flex items-center justify-center bg-red-300 px-6 py-4 sticky top-0 z-50">
       <div className="max-w-[1024px] w-full flex items-center justify-between lg:flex-row-reverse">
 
-
         <nav className="hidden lg:flex items-center gap-10 text-white">
-          <a href="#inicio">
+          <a href="/#inicio">
             Inicio
           </a>
-          <a href="#sobre">
+          <a href="/#sobre">
             Sobre
           </a>
-          <a href="#propostas">
-            Propostas
-          </a>
-          <a href="#galeria">
+          <a href="/#galeria">
             Galeria
           </a>
-          <a href="#depoimentos">
+          <a href="/#depoimentos">
             Depoimentos
           </a>
-          <a href="#dicionario">
+          <a href="/#dicionario">
             Dicionário
           </a>
-          <a href="/remigio-da-gente">
-            Remígio da gente
-          </a>
         </nav>
-        <img src={img} alt="Logo de Gleds" className="w-32 z-50" />
+        <a href="/">
+          <img src={img} alt="Logo de Gleds" className="w-40 z-50" />
+        </a>
         <div className="lg:hidden">
           <Menu>
             <Menu.Button className="text-base text-white">Menu</Menu.Button>
-            <Menu.Items className="bg-blue-300 text-white fixed w-screen top-14 left-0 transition-all border-none px-8 py-4 flex flex-col items-end gap-4">
+            <Menu.Items className="bg-[#E31313] text-white fixed w-screen top-14 left-0 transition-all border-none px-8 py-4 flex flex-col items-end gap-4">
               <Menu.Item>
                 {({ active }) => (
                   <a
                     className={`${active && "bg-blue-500"}`}
-                    href="#inicio"
+                    href="/#inicio"
                   >
                     Inicio
                   </a>
@@ -49,7 +44,7 @@ export default function Header() {
                 {({ active }) => (
                   <a
                     className={`${active && "bg-blue-500"}`}
-                    href="#sobre"
+                    href="/#sobre"
                   >
                     Sobre
                   </a>
@@ -59,17 +54,7 @@ export default function Header() {
                 {({ active }) => (
                   <a
                     className={`${active && "bg-blue-500"}`}
-                    href="#propostas"
-                  >
-                    Propostas
-                  </a>
-                )}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => (
-                  <a
-                    className={`${active && "bg-blue-500"}`}
-                    href="#galeria"
+                    href="/#galeria"
                   >
                     Galeria
                   </a>
@@ -79,7 +64,7 @@ export default function Header() {
                 {({ active }) => (
                   <a
                     className={`${active && "bg-blue-500"}`}
-                    href="#depoimentos"
+                    href="/#depoimentos"
                   >
                     Depoimentos
                   </a>
@@ -89,19 +74,9 @@ export default function Header() {
                 {({ active }) => (
                   <a
                     className={`${active && "bg-blue-500"}`}
-                    href="#dicionario"
+                    href="/#dicionario"
                   >
                     Dicionário
-                  </a>
-                )}
-              </Menu.Item>
-              <Menu.Item>
-                {({ active }) => (
-                  <a
-                    className={`${active && "bg-blue-500"}`}
-                    href="/remigio-da-gente"
-                  >
-                    Remígio da gente
                   </a>
                 )}
               </Menu.Item>

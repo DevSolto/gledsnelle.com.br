@@ -5,21 +5,21 @@ import { Dictionary } from "./components/dictionary";
 import { Footer } from "../../components/footer";
 import { PhotoGallery } from "./components/gallery";
 import Header from "./components/header";
-import { Proposals } from "./components/proposals";
+// import { Proposals } from "./components/proposals";
 import { SocialMedia } from "./components/socialMedia";
 
 function Home() {
   return (
     <>
-      <Header />
-      <Banner />
-      <About />
-      <Proposals/>
-      <PhotoGallery/>
-      <Depositions/>
-      <Dictionary/>
-      <SocialMedia/>
-      <Footer/>
+        <Header />
+        <Banner />
+        <About />
+        {/* <Proposals /> */}
+        <PhotoGallery />
+        <Depositions />
+        <Dictionary />
+        <SocialMedia />
+        <Footer />
     </>
   );
 }

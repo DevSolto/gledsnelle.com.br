@@ -1,26 +1,34 @@
-import { ContactButton } from "../contactButton/Index";
+import logo from '../../../../assets/logo-gleds-colorida.webp'
+import button from '../../../../assets/BOTÃO-ACESSO-PLANO-DE-GOVERNO.webp'
 export function Banner() {
   return (
     <>
-    <section id="inicio" className="bg-remigio bg-cover bg-bottom text-white w-screen flex flex-col justify-end items-center pt-32 lg:pt-16">
-      <div className="max-w-[1024px] h-min  w-screen flex flex-col items-center justify-end gap-0  lg:flex-row object-scale-down">
-        <div className="flex-1 lg:w-[50%] px-6">
-          <h1 className="text-3xl font-bold mb-7 lg:text-5xl">Vamos à luta com a força da nossa terra</h1>
-          <p className="text-base mb-7">
-            Vamos juntos fazer de Remígio um lugar de progresso e felicidade
-            para nossas famílias. A jornada é desafiadora, mas com fé, união e
-            determinação, chegaremos lá. <span className="font-bold"> Remígio merece mais!</span>
-          </p>
-          <ContactButton />
+      <section id="inicio" className="bg-main bg-cover bg-top text-[#E31313] w-screen flex flex-col justify-end items-center pt-10 lg:pt-0">
+        <div className="max-w-[1024px] h-min  w-screen flex flex-col items-center justify-end gap-5  lg:hidden object-scale-down">
+          <div className="flex-1 lg:w-[50%] px-6">
+            <img src={logo} alt="" />
+          </div>
+          <div className="bg-avatar d-flex bg-cover bg-center sm w-full max-w-[550px] lg:w-1/2 h-[350px] lg:h-[800px] ">
+
+          </div>
+          <a href="/plano-de-governo" className='px-5'>
+            <img src={button} alt="" />
+          </a>
         </div>
-        <div className="bg-avatar d-flex bg-cover bg-center sm w-full max-w-[550px] lg:w-1/2 h-[600px] lg:h-[800px] ">
-          
+        <div className="max-w-[1024px]  w-screen items-end justify-end gap-5  lg:grid grid-cols-2 hidden  object-scale-down">
+          <div className='h-full flex flex-col items-center justify-center gap-5'>
+            <div className="px-6">
+              <img src={logo} alt="" className=''/>
+            </div>
+            <a href="/plano-de-governo" className='px-5 flex justify-center'>
+              <img src={button} alt="" className='w-2/3' />
+            </a>
+          </div>
+          <div className="bg-avatar-2 d-flex bg-contain bg-no-repeat bg-bottom h-[380px] -mb-5 mt-20 ">
+
+          </div>
         </div>
-      </div>
-        
-    </section>
-      <div id="padrao" className="lg:bg-contain bg-cover h-20 lg:h-32 w-full d-flex m-0">
-      </div>
+      </section>
     </>
   );
 }
