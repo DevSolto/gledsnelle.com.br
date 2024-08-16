@@ -1,5 +1,6 @@
 import logo from '../../../../assets/logo-gleds-colorida.webp'
 import button from '../../../../assets/BOTÃO-ACESSO-PLANO-DE-GOVERNO.webp'
+import { Link } from 'react-router-dom';
 export function Banner() {
   return (
     <>
@@ -11,9 +12,9 @@ export function Banner() {
           <div className="bg-avatar d-flex bg-cover bg-center sm w-full max-w-[550px] lg:w-1/2 h-[350px] lg:h-[800px] ">
 
           </div>
-          <a href="/plano-de-governo" className='px-5'>
+          <Link href="/plano-de-governo" className='px-5'>
             <img src={button} alt="" />
-          </a>
+          </Link>
         </div>
         <div className="max-w-[1024px]  w-screen items-end justify-end gap-5  lg:grid grid-cols-2 hidden  object-scale-down">
           <div className='h-full flex flex-col items-center justify-center gap-5'>
