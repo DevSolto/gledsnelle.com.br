@@ -7,7 +7,7 @@ export function Plan() {
       <div className="max-w-[1024px] h-min w-screen flex flex-col items-start justify-end gap-5 object-scale-down ">
         <h2 className="p-5 text-3xl font-extrabold text-white">Áreas Temáticas e Propostas</h2>
         <div className="flex justify-center w-full">
-          <Accordion type="single" className="w-full">
+          <Accordion type="multiple" className="w-full">
             {thematicAreasList.map((thematicArea) => {
               return (
                 <AccordionItem key={thematicArea.title} value={thematicArea.title} className="bg-white px-10">
