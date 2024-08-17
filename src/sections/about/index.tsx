@@ -23,7 +23,7 @@ export function About() {
           </h2>
           <p className={`text-slate-50 lg:line-clamp-none ${isOpen ? '' : 'line-clamp-6'}`}>
             Olá, meus queridos! Aqui é Gleds, mas muitos de vocês me conhecem
-            como 'Mainha'. Sou filha de Geraldina e Belino, apaixonada por nossa terra e
+            como &apos;Mainha&apos;. Sou filha de Geraldina e Belino, apaixonada por nossa terra e
             nossa gente. Sou uma mulher guerreira, mãe, amiga e, acima de tudo,
             uma cidadã que acredita no poder da comunidade. Desde cedo, me
             dediquei a cuidar e educar. Como enfermeira ou professora, sempre
