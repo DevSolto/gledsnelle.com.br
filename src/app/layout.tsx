@@ -7,7 +7,7 @@ import { Footer } from "@/sections/footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Glednelle",
+  title: "Gledsnelle",
   description: "Juntos e unidos por uma Remigio Melhor",
 };
 
